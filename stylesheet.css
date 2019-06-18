@@ -177,14 +177,14 @@ z-index: -1;}
 	top: 0;
 	bottom: 0;
 	opacity: 0;
-	transform: translate(-52%,34%);
+	transform: translate(-52%,27.5%);
 animation: portfoliobutton 1s forwards;}
 
 @keyframes portfoliobutton {
-	0%{transform: translate(50%,34%);}
+	0%{transform: translate(50%,27.5%);}
 	50% {opacity: 0;}
 	100%{opacity: 1;
-		transform: translate(-52%,34%)}}
+		transform: translate(-52%,27.5%)}}
 
 #sequence4grid{
 	height: 55.4px;
