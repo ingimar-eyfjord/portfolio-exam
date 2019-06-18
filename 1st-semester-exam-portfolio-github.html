@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>portfolio-website</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+<div id="homepageBackground"><img class="background-image" src="beauty-graphics/tree-stone.jpg" alt=""/></div>
+<div id="media-query">
+	<div id="first-stage" class="first-stage">
+	<div id="first-stage-wrapper">
+	<img src="interface_graphics/half-circle.png" onclick="firstStageAnimation()" class="first-circle" width="592" height="592" alt=""/> </div></div>
+	
+<div id="button-interface-sequence-1">
+		
+  <div id="sequence1grid">
+	<h2 id="leftcircle-text" onClick="aboutMeOpen()" class="left-circle-text">About Me</h2>
+			<h2 id="right-circle-text" onClick="portfolioOpen()" class="right-circle-text">Portfolio</h2></div></div>
+
+	<div id="button-interface-sequence-2">	
+		
+	  <div id="sequence2grid"><div id="back-button-rightside"><h2 class="back-button-rightside" onclick="back()">Back</h2></div>
+	</div>
+	</div>
+	
+	<div id="line">
+	<div class="line"></div></div>
+	
+	<div id="line-2" class="hidden"><div class="line-2"></div></div>
+	
+<div id="secondStageWrapper">
+  <img id="right-circle" class="portfolioCircle" src="interface_graphics/half-circle-upright.png" width="592" height="592" alt=""/></div> <!-- class="portfolioCircle" -->
+	
+	<div id="left-circle-upright">
+		<div id="sequence3grid">
+	<img class="left-circle-upright" src="interface_graphics/half-circle-left-side.png" width="347" height="692" alt=""/></div></div>
+	
+<div id="x">
+<div id="center-menu-open" class="center-menu-open cursor hidden" onclick="closeNavButtons()"><img class="arrow" src="beauty-graphics/1x/Arrow-down.png" alt=""/></div></div>
+		
+		<div id="burger" onclick="openNavButtons()" class="hidden">
+<div id="center-menu-closed">
+	    <img src="beauty-graphics/1x/arrow-up.png" class="arrow" alt=""/></div></div>
+		
+		<div id="AaboutMeButton" class="cursor hidden" onClick="aboutMeOpen()"><input class="button" type="button" value="About Me"><!--
+	    <img class="about-portfolio-image" src="about-me-graphics/found-what-i-want.jpg" width="1047" height="1047" alt=""/>--></div>
+	
+		
+<div id="portfolioButton" onClick="portfolioOpen()" class="cursor hidden"><input class="button" type="button" value="Portfolio"></div>
+	
+	<div id="backbutton-down"><img class="backbutton-down" src="interface_graphics/circle-down.png" width="693" height="348" alt=""/><h2 style="transform: translate(2.3vw, 95.5vh);" class="backbutton-down" onclick="back()">Back</h2></div>
+	 
+	<div id="home" class="hidden" onclick="gohome()">
+	<div id="homeButton"><h2>HOME</h2></div></div>
+
+		
+<div id="portfolio">
+	<div id="sequence4grid">
+	<input class="portfolio-button" type="button" value="Theme 01: Basic Web" onClick="openThemeone()">
+		
+	<input class="portfolio-button" type="button" value="Theme 02: Basic Animation" onClick="openThemetwo()">
+		
+	<input class="portfolio-button" type="button" value="Theme 03: Basic Content" onClick="openThemethree()">
+		
+	<input class="portfolio-button" type="button" value="Theme 04: Basic UX" onclick="openThemefour()">
+	</div>
+	</div>
+	
+	<div id="welcome-text"><h1>Hello, welcome to my portfolio website. <br>To begin please press the half-circle.</h1></div>
+	</div>
+		<div id="contact-information"><a href="https://www.facebook.com/ingimareys"><img class="contact-icon" src="icons/1x/Facebook.png" width="512" height="512" alt=""/></a>	<a href="https://github.com/ingimar-eyfjord"><img class="contact-icon" src="icons/1x/Github.png" width="512" height="502" alt=""/></a><a href="ingimareys93@gmail.com 
+"><img class="contact-icon" src="icons/1x/gmail.png" width="512" height="512" alt=""/></a><img class="contact-icon" src="icons/1x/instagram.png" width="512" height="512" alt=""/><a href="https://www.linkedin.com/in/ingimareyfjord/"><img  class="contact-icon" src="icons/1x/linkedin.png" width="512" height="512" alt=""/></a><img class="contact-icon" src="icons/1x/phone.png" width="512" height="512" alt=""/><img class="contact-icon" src="icons/1x/twitter.png" width="512" height="512" alt=""/></div>
+	
+	
+<div id="about-me">
+		
+		<div class="about_me-layout">
+		<div id="about-text" class="about-text">
+	<img src="about-me-graphics/current-profile-pic.jpg" width="995" height="995" class="article_image" alt=""/><h3 class="about-title"> Ingimar Eyfjörð Smárason</h3>
+		<p>Hi there, thank you for checking out my website, Let me tell you a little about myself.</p>
+<p>My full name is Ingimar Eyfjörð Smárason, most people nowadays call me Ingi (it’s easier for non-Icelanders). And yes I come from Iceland, the land of ice and fire.</p>
+<p>I originally moved to London in March of 2018, where I worked at Booking.com as a Guest Specialist. It was the time of my life, I was entirely enticed by the cities charms and partied pretty much every weekend.</p>
+<p>I moved there originally to get away from Iceland as I felt there was nothing left for me there, I wasn’t sure what would await me in London, but what I figured out turned out to be the reason I’m here today. </p>
+
+<p>You see, I never had a clear goal of what I wanted to do in my life, I really had no Idea. London thought me to chase my dream, and my dreams turned out to be anything related to Multimedia Design.</p>
+
+<p>I’ve always been a photographer, ever since I remember I loved getting my hands on a camera, but it wasn’t until 2015 when I bought my own professional camera. With it I became a real hobbyist, learning all the different techniques and tricks.</p><h2>Education</h2><hr><div id="header-seporation"><h3>01/13 – 07/17</h3><h3> 	Diploma in retail management – University of Bifröst, Bifröst Iceland.</h3></div><ul class="education-list"><li>Retail Management.</li><li>Micro Economics.</li><li>Micro Economics.</li><li>Quality assurance service and sales.</li><li>Information technology.</li><li>Marketing.</li><li>Accounting and bookkeeping</li><li>Purchasing and logistics.</li><li>Management and teamwork.</li><li>Icelandic.</li></ul><br>
+			
+			<h2>Employment over the past 10 years.</h2><hr><div class="header-seporation"><h3>03/18 – 09/18</h3>	<h3>Booking.com e-booking website - Guest specialist, London United Kingdom.</h3></div><ul class="education-list"><li>Guest specialist at e-booking website Booking.com.</li><li>Managing bookings in the back-end system TED.</li><li>Negotiating with hotel management on behalf of guests and vice versa with guests on behalf of hotels.</li><li>Answering calls, emails, internet chats via messaging system, receiving complaints and finding a solution that’s right for guests at a moments notice, reaching a common ground.</li></ul><br>
+			
+			
+<hr><div class="header-seporation"><h3>08/15 - 01/19</h3><h3>ELKO e-commerce website - sales and customer service, Reykjavík, Iceland.
+</h3><br></div><ul class="education-list"><li>Sales and customer service agent for e-commerce electronics store ELKO (www.elko.is).</li><li>Selling package based deals solutions for customers for better profit margin and better overall customer experience.</li><li>Answering calls, emails, internet chat via www.elko.is, finding and giving information on a moment notice, taking complaints and finding a solution that’s right for the costumer.</li><li>Working with front and back end Software systems like Magento.</li><li>Managing product online, making sure they have correct information also adding products on the website.</li><li>Managing shipments of orders to my customers all over Iceland.
+</li></ul><br>
+			
+		<hr><div class="header-seporation"><h3>06/14 – 08/15</h3><h3>VEMMA Independent sales in network marketing, Iceland.
+</h3></div><ul class="education-list"><li>Independent sales, cold calls, product introductions and presentations.</li><li>Organizing events, public speaking.</li><li>Self follow up.</li></ul><br>
+			
+			<hr><div class="header-seporation"><h3>06/09 – 2015</h3><h3>N1 gas and service station - shift manager, Reykjavík Iceland.
+</h3></div><ul class="education-list"><li>Shift management in a fast-paced workplace. </li><li>Managing peers, servicing customers and solving various problems that come up.</li><li>Adhering to strict code regulations to uphold ISO-14001 environmental quality standards.</li><li>Accounting, product procurement.
+			</li></ul><br>
+			<h2>Languages</h2><hr><h3>Icelandic: Mother Language</h3><h3>English: very fluent in both written and spoken.</h3><h3>Icelandic sign language: fluent.</h3><h3>Danish: Moderate</h3>
+			
+			<h2>Adapt in</h2><hr><ul class="education-list"><li>Booking.com Extranet</li><li> Adobe Photoshop</li><li> Adobe Illustrator</li><li> Adobe Lightroom</li><li> Adobe InDesign</li><li> Microsoft – Word</li><li> Excel</li><li> Outlook</li><li> P.P</li><li> Dynamics</li><li>Google Suite</li><li> Magento open-source e-commerce platform</li><li> Windows 10 and Mac OS.</li>
+			</ul><div class="physical-bottom-padding"></div></div></div></div>
+
+
+	<div id="portfoliopadding" style="margin-bottom:10vh;">
+		
+<div id="Theme01BasicWeb" >
+		<div id="portfolio-layout" class="portfolio-layout">
+		<div id="portfolio-text" class="portfolio-text">
+	<h2>Theme 01: Basic Web</h2>
+			
+			
+<p>In the Basic Web theme we learned about the primary tools within the MMD profession. </p>
+
+<p>We learned about user interface design, digital communication, user testing and responsive web design. We also learned that as multimedia designers we design for a multitude of devices formats, from mobile phones to computers. We can use tools like Adobe XD to help us design for these sizes and basic design principles to help us make it look good, like the Gestalt principle and contrasts, balance.</p>
+
+<p>We also learned about the design processes and documentations used in digital media productions like basic colour theory, colour schemes, mood board, style tiles, icon design, typography, sketching,wireframing and prototyping a website. </p>
+
+<p>What I learned most during this theme is the value of using CSS grids, both for responsive web design and as an overall design tool.</p>
+
+<h2>Projects in this theme: 01.04.01. Responsive Website:</h2>
+
+<h3>About this project:</h3>
+<p>In this task we were introduced to responsive design. I was tasked to make a website that was responsive and fit the Jazz theme Blue Note. What was very challenging for me was the design around Blue Note records did not interest me at all. However, I pushed forward and designed my website.</p>
+
+<h3>What kept me motivated?:</h3>
+<p>I decided to pursue an idea that this website would include a “store”, as I do have a degree in Retail Management, I always wanted to open up an online store for myself. </p>
+<div class="image-in-text">
+<img src="Material-for-portfolio/01.04.01-Responsive-website/using-grids.PNG" class="image-in-article" alt=""/><p class="text-under-image-center"><i>Here you can see the store layout</i></p></div>
+
+<p>I set up the website to mimic a culture house, it would have a venue that sells tickets to concerts an online store that sells jazz albums, t-shirts and Instruments as well host a newsletter and a blog, all about Jazz.</p>
+
+<p>I effectively turned a style that I didn’t like into a new brand identity.</p>
+
+<h3>Mood Board and Style Tile:</h3>
+<p>In this project we designed a mood board and a styletile to help us with the design,</p>
+<div class="image-in-text-left">
+<img class="image-40vw" src="Material-for-portfolio/01.04.01-Responsive-website/Style-tile-for_01.03.01.jpg" alt=""/><p class="text-under-image"><i>Here you can see the store layout</i></p></div><p>in the styletile you decide which font your using, as well as accentrics about your websites, here you include the colour codes and icons as well. </p>
+
+<p>In the moodboard you take together a multitude of pictures or art pieces into one canvas, this gives you a feeling for the colour theme and the design principles that is going to be used in the production.</p>
+<br>
+<h3>Wireframing beforehand:</h3>
+<p>I used Adobe XD to make a high fidelity wireframe of my design before starting to code the website. This really helped me continue the creative flow before going into coding. Adobe XD has nice tools meant to help you with the design aspects, like guides and helps your elements keep with the Gestalt principles.</p>
+
+<h3>Solution for responsiveness: </h3>
+<p>In order to make this site responsive I used CSS grids. I started to make the entire website in a grid layout setup. I had an article look\layout on my About and Newsletter pages</p> <div class="image-in-text-left">
+<img class="image-40vw" src="Material-for-portfolio/01.04.01-Responsive-website/about-me-layout.PNG" alt=""/><p class="text-under-image"><i>Here you can see the code <br>for the "About" layout</i></p></div><p>and then I had an online store look/layout set up for the “store”. </p>
+
+<p>The store has three columns and can host as many rows as you want. I used a @media query to dismantle the grids when the website would be shrunk, each child element would then re-arrange themselves into a flexbox grid.<br></p> <div class="image-in-text-left" style="margin-top: 8vh;">
+<img class="image-20vw-right" src="Material-for-portfolio/01.04.01-Responsive-website/store-layout-css.PNG" alt=""/><p class="text-under-image-right"><i>Here you can see the code <br>for the grid layout</i></p></div><p>The flexbox has a max of two columns and a minimum of 1, effectively making the store change in response to its environment.</p>
+
+<p>The grids used in all other areas on the website have a fixed width compared to the viewport width and an automatic height (set in CSS), making it shrink or get bigger with its environment.</p>
+<br>
+<h3>Responsive Navbar:</h3>
+<p>When designing a responsive webpage it’s very good to make the navigation also responsive. For this I made the navbar change into a dropdown menu (burger menu) when the site reached a minimum of 800px width or less. This ensures that the design of the webpage doesn’t get messy, and the user doesn’t lose their way.</p><br>
+<div class="image-in-text-left">
+<img class="image-40vw" src="Material-for-portfolio/01.04.01-Responsive-website/navigation-bar.PNG" alt=""/><p class="text-under-image"><i>Here you can see the code <br>for the navigation bar</i></p></div><br>
+
+<p>What I learned from this was that having a burger menu at the top-left corner is not a very user friendly solution for mobile users, as the distance from the thumb to the menu is significant. Better have the navbar change to the bottom-right corner.</p>
+	<div class="physical-bottom-padding"></div>
+	</div>
+
+</div>
+</div>	
+	
+<div id="Theme02BasicAnimation" >
+		<div class="portfolio-layout">
+		<div class="portfolio-text">
+			
+			<h2>Theme 02: Basic Animation</h2> 
+
+
+<p>In the Basic Animation theme, we learned about design processes and documentation used in our profession, like character design model sheets, pose sheets, style tiles, sketching methods narrative curve, storyboard, ideation methods. We learned to incorporate CSS animations, sprite sheets, javascript to trigger the CSS animations and how to integrate and edit sounds.</p>
+
+<p>As well as learning all these design processes we also learned about project management and were introduced to the SCRUM method, and iterative and agile project development method. We also learned about user testing of digital productions and were introduced to peer review and think aloud testing methods.</p>
+
+<p>We applied these basic theories and tools to manage simple multimedia production throughout the theme.</p>
+
+<h2>02.02.01. Week Submission part one part two and part three</h2>
+
+<p>In this project I was tasked with making a digital character, a storyboard, a style tile, a sprite sheet with a background and a story.</p>
+
+<p>I really like making stories, for this one I made a very bleek one with two possible endings, since it’s inherently a tragedy, either one or both the characters die, depending on the choice you make (and the choice is not obvious).</p>
+<br>
+<h2>Solution:</h2>
+
+<h3>The storyboard:</h3>
+<p>Was hand drawn by me, I am not that great of an artist to be honest, I have a better time drawing in the computer, as you can see below. The storyboard has a clear view of the surroundings and the characters emotions, including “camera” angles and transition through time.</p>
+			
+			<div class="image-in-text">
+<img src="Material-for-portfolio/02.02.01-Week-submission_part_one_part_two_part_three/storyboard.jpg" class="image-in-article" width="1528" height="2038" alt=""/>
+<p class="text-under-image-center"><i>Here you can see the part of the storyboard</i></p></div>
+		
+<h3>Narrative Curve:</h3>
+<p>I decided to make the story end in a very excited but then bleek manor, therefore there is no drop in the end of the curve like a traditional Narrator Curve. This one ends at the highest point.</p>			
+			<div class="image-in-text">
+<img src="Material-for-portfolio/02.02.01-Week-submission_part_one_part_two_part_three/narrator-curve.jpg" class="image-in-article" width="1528" height="2038" alt=""/>
+<p class="text-under-image-center"><i>Here is the analysis with a Narrator Curver</i></p></div>
+
+<h3>Character design:</h3>
+<p>I decided to use flat design, I designed the character from scratch, to do so I used a blank character sketch and followed the shapes in illustrator. The character has minimal to no lines, shadows make the details. The shapes are organizing and asymmetrical.</p>	
+			<div class="image-in-text">
+<img src="Material-for-portfolio/02.02.01-Week-submission_part_one_part_two_part_three/character_stylesheet.jpg" class="image-in-article" width="9919" height="10002" alt=""/>
+<p class="text-under-image-center"><i>Here you can see my character design sheet.</i></p></div> <div class="image-in-text">
+<img src="Material-for-portfolio/02.02.01-Week-submission_part_one_part_two_part_three/blank-char.jpg" class="image-in-article" alt=""/>
+<p class="text-under-image-center"><i>I used these sketches to create my character.</i></p></div>
+
+
+<h3>Worksheet:</h3>
+<p>The worksheet was very interesting to fill out, I really got to imagine my characters life. Filling out the characters main goals in life and what they need to do to fulfill them, brings them to life. The fact that there’s so many aspects from social, physical and environmental will give you such a clear image of the character.</p>
+
+<h3>Sprite sheet:</h3>
+<p>Working on the sprite sheet was a little bit of a challenge for me because of the many detailed shapes I made my character in. To tackle this problem I decided to try Adobe Character Animator, after some hours of figuring out how it works, I tried hooking up my character with the animator. </p>
+<div id="walkacross"><div id="character" class="character-walk"></div></div>
+<p>Needless to say, it looked horrible, I started freaking out a little bit since it was very close to the hand in date. For you see I spent so much time on my character development. In a bit of a rush I made 8 variations of my character walking, tediously changing the limbs one by one in illustrator, hoping it would look better. It did look a lot better as you can see here:</p>
+
+<p>I got a comment about the pattern on the ground being to complex that it was hard to follow, I agree with that.</p>
+	
+<br><br>
+<h2>02.04.06 Link to Final Interactive Production.</h2>
+
+<h3>About this project:</h3>
+<p>For this project we were tasked to create an online interactive movie poster with Cinemateket as the faux client. We had a few movies we could choose from, we chose the Shining. The main goal was to get our target audiences to come to Cinemateket to see the movie after having seen the trailer.</p>
+
+<h3>A team effort:</h3>
+<p>This project is a team project, where me and my teammates were chosen to work together based on the different type of person we are, for this method we put ourselves into a stereotypical roleplay. </p>
+<p>We had the “prophead” (Indre) who oversaw most of the coding and markup for this project. Then we have the “ponytail” (Sigrun) who oversaw most of the design and Illustrations and then there was me the suit. 
+This matchmaking is what the teachers called, quick and dirty method of finding someone that’s willing to take on a specific role.</p>
+
+<h3>Target audience:</h3>
+<p>As a team we used a very crude and stereotypical method to find a fictional target audience. We chose the basic hipster that likes coffee houses and has a run down bike living in Copenhagen.</p><div class="image-in-text">
+<img src="Material-for-portfolio/final-ineractive-production/target-group.PNG" class="image-in-article" alt=""/>
+<p class="text-under-image-center"><i>Here is a screenshot of a sprite sheet used in our interactive poster.</i></p></div>
+
+<h3>My role: </h3>
+<p>I chose to be the suit, the one that would manage the project and see to that it would be finished. I managed the project respectfully well. I had a few other roles during this project as well, I directed the audio through the interactive poster and helped with a little coding and some of the illustrations. I also did the GIF.</p>
+			<p>I integrated the SCRUM method in our team to help us keep track of our unfinished tasks.</p>
+			<div class="image-in-text">
+<img src="Material-for-portfolio/final-ineractive-production/here's_johnny.gif" class="image-in-article" alt=""/>
+<p class="text-under-image-center"><i>Here is a screenshot of a sprite sheet used in our interactive poster.</i></p></div>
+			<p><i>Here is one of the audio files I got from the movie.</i></p>
+
+<h3>Testing:</h3>
+<p>We tested the interactive poster on a few people including one of the teachers with the peer review and think aloud methods, after which we concluded that the whole poster was a little dragged out (it was too long). I understood the role of the Multimedia Designer can be very varied, but that focus is really necessary in order to finish a project.</p>
+
+<p>We took the testing as a valid remark and fixed the scenes to make them shorter.</p>
+<br>
+<h2>Solution:</h2>
+
+<h3>Adobe illustrator:</h3>
+<p>Sigrun was our main graphic designer for this project and designed all the graphics in Adobe illustrator. Two scenes in the interactive poster is a sprite sheet animation.</p>
+
+<h3>HTML and CSS:</h3>
+<p>Indre was our main coder she made the HTML markup is extremely simple for this movie poster, we used CSS for positioning and animations of the illustrations. We also embedded the audio files here.</p><div class="image-in-text">
+<img src="Material-for-portfolio/final-ineractive-production/Capture.PNG" class="image-in-article" alt=""/>
+<p class="text-under-image-center"><i>Here is a screenshot of a sprite sheet used in our interactive poster.</i></p></div>
+
+<h3>Javascript:</h3>
+<p>Our interactive project was sequenced and stitched using javascript timeout and CSS class changing codes. </p>
+
+<h3>Audio:</h3>
+<p>I managed the audio files, I got my hands on the movie in wav. Format with a 5.1 audio channel. I used Adobe Audition to isolate the sound so I was able to separate the music from the speech and I was also able to make some pitch changes. So we integrated original soundtrack audio files in mp3 format into the production.</p>
+
+<p>Here is a link to our short process documentation presentation:</p>
+<a href="https://docs.google.com/presentation/d/1Ipey1aJMMW_tyrRMXq-I5eyThjaQ6FDufwBAc7iX64Q/edit#slide=id.p">02.04.07 Presentation (short process documentation) pdf.</a>
+			
+			<p>And here is the link to our final interactive project:</p>
+<a href="https://indre101.github.io/Interactive_movie_poster/firstScene.html">02.04.06 Link to Final Interactive Production.</a><br>		
+			<audio controls>
+  <source src="Material-for-portfolio/final-ineractive-production/very_creepy_sound_1.mp3" type="audio/mpeg"></audio>
+			<div class="physical-bottom-padding"></div>
+			</div>
+	</div>
+	<div class="physical-bottom-padding"></div>
+	</div>
+	<div id="Theme03BasicContent">
+		<div class="portfolio-layout">
+		<div class="portfolio-text">
+			
+			<h2>Theme03: Basic Content</h2> 
+		
+<p>In the Basic Content theme we learned about layout compositions and visual communication. We learned about videography, transitions and editing. We applied a lot of things that we learned from the previous two modules as well f.ex 5 second test and an expert test.</p>
+
+<p>We reiterated the way we worked in our last team, this time we had a few more tools to work even better with each other than in the last theme. We created a storyboard for a video this time around, a wireframe and xd prototype as well as a website hosting our main project for the theme, a video guide about how to bike in Copenhagen for non-Danes.</p>
+
+<h2>A Team Canvas:</h2> 
+<p>The teamcanvas is a lovely way to bring together a group of people and form a team, the reason for this is a common goal setting and a declaration of transparency.</p>
+
+<p>As a team we set our goals for the project but we also got to know one another better, our weaknesses and how we can all pitch in to help each other if needed.
+Tiny bit more here</p>
+
+<div class="image-in-text">
+<img src="Material-for-portfolio/03.02.01/03.02.01-Team-Canvas.jpg" class="image-in-article" alt=""/>
+	
+<p class="text-under-image-center"><i>Here is our Team Canvas we made together. It really brought us closer together and we understood each other better after.</i></p></div>
+	
+<h2>The Storyboard:</h2>
+
+<p>Our team was tasked to create a storyboard for the main film project of the theme. We were very eager to start filming so we made the storyboard very quickly. The storyboard is used to plan out every scene in your production. </p>
+
+<p>Here you have to meticulously plan the environment, the position of the actor, the movement of the actor and the movement of the camera.</p>
+
+<p>We made a minor mistake doing our storyboard. It’s good enough to pass, but I personally would have preferred that we would have given the on-camera transitions more thought, i.e. the starting and closing scenes.</p>
+			
+				<div class="image-in-text">
+<img src="Material-for-portfolio/03.02.01/03.02.03-Storyboard_Page_3.jpg" class="image-in-article" alt=""/>
+	
+<p class="text-under-image-center"><i>Here you can see one of the pages in our storyboard. You can see the red lines as the actors movements, and then the blue lines as the camera movements and angles.</i></p></div>
+
+<p>To fix this minor problem I tried to find the best transitions in post video editing. I have learned that if you plan your transitions well enough beforehand, you can have a much more dynamic video.</p>
+
+<h2>The XD Prototype:</h2>
+<p>Here were tasked to make an XD prototype of the landing page that hosts the main video project, we were very quick with this as we had a clear Idea of what we wanted to achieve. </p>
+			
+			<div class="image-in-text">
+<img src="Material-for-portfolio/03.02.01/xd-pic.PNG" style="width: 40vw; height: auto;" class="image-in-article" alt=""/>
+	
+<p class="text-under-image-center"><i>Here is a screenshot of the XD prototype.</i></p></div>
+
+<p>Since our target audience were international students and travelers, we wanted to make it like a quick and dirty (but professionally beautiful) article website with a video. The ones you see on the go, i.e. on the train for.ex. Our inspiration came from various news agencies that market on facebook and social media. </p>
+
+<h2>The Website:</h2>
+<p>The website was very much like the XD prototype, it follows a design trends you see a lot from news agencies, we placed our video on top for the viewer to see right away, to get the user to click on the video, instead of leaving our site out of frustration (if the user is not a big reader).</p>
+			<div class="image-in-text">
+<img src="Material-for-portfolio/03.02.01/Capture.PNG" class="image-in-article" alt=""/>
+	
+<p class="text-under-image-center"><i>As you can see here, our webpage has the video on the very top to catch the attention of the user.</i></p></div>
+
+<p>Here is the link to the website that hosts the video.</p>
+<a href="https://indre101.github.io/Bicycle_101/html/index.html">02.04.06 Link to Final Interactive Production.</a><div class="physical-bottom-padding"></div>
+			</div></div><div class="physical-bottom-padding"></div></div>
+
+	<div id="Theme04BasicUX" style="padding-bottom: 1200px;">
+		<div class="portfolio-layout">
+		<div class="portfolio-text">
+			
+			<h2>Theme 04: Basic UX</h2> 
+			
+<h3>Long term goal: </h3>
+<p>The long term goal is for students to have access to Fronter through their phone. To give the students a portable platform for their busy lives. This will in return increase the engagement from the student’s and hasten their workflow.</p>
+
+<p>Make a social media platform on fronter that will increase engagement between students and administrators.</p>
+
+<h3>The problem:</h3>
+<p>Currently the Fronter we use today is not mobile friendly, therefore a lot of students opt to wait until they reach their PC’s in order to log on. </p>
+
+<p>A lot of the problems caused by Fronter today is that nothing is responsive and the schedule is the least scalable thing there. It’s almost impossible to use it through the phone.</p>
+
+<p>My solution: Make the mobile version of Fronter easily navigable through design, designing an interface that looks and feels like an app is my approach to achieving this. Make a social media platform based on twitter with added functions like Direct Messaging system.</p>
+
+<h3>Design:</h3>
+
+<p>I started out by writing up and coding based on the design we used for the XD prototype. I designed using the same structure but ultimately I varied with design.</p>
+
+<p>For the primary colours I decided to take the colours of the KEA page and use that for the header, navbar and the background the colour of the KEA logo is also used as an accent colour.</p>
+
+<p>For the secondary colours I used the KEA style guide, I choose to use the light pastel colours. For the logos I got then from a website that has a lot of different logos, I chose a set of linear design logos.</p>
+
+<h3>Functionalities and reasoning:</h3>
+
+<h3>Login:</h3>
+<p>There’s a tutorial on YouTube that teaches how to do a login function, I might go ahead and implement that login function to my web prototype with a pre set up password and username.</p>
+
+<h3>Modules: </h3>
+<p>I’m am essentially designing a drop down menu that directs the user between the semesters to their projects. The idea is simple enough but can be confusing if you don’t really know the structure before hand, but then again, no one knew the structure to begin with anyway. </p>
+
+<p>The idea is that here you will also be able to see your feedback from the teachers with an icon on the side of each project, the icon would make the element behave in the same way as it does when clicked. It will drop down (expand) with the current feedback.</p>
+
+<p>The end path will lead the user to the current project.</p>
+
+<h3>Current project:</h3>
+<p>This is basically a shortcut. There is a way to this page from the homepage, and in the navigation bar in the bottom. Here students can easily access the current project instead of navigation through the modules.</p>
+
+<h3>Newsfeed: </h3>
+<p>The newsfeed is meant to be a sort of social media platform with all the relative information that is circulating around KEA and the students, my inspiration was twitter. Here the administration and can post news articles and information as well as a “tweet” or a picture they want to share.</p>
+	
+<p>Inside the platform there’s an opening box with more settings and functionalities (press on the picture or HOME button). 
+There you have information about yourself and your followers. The idea here is that you can search for other people, choose what hashtags to follow or unfollow. </p>
+
+<h3>Schedule:</h3>
+<p>The idea behind the schedule is derived from an app that I use for work, it’s fairly simple to use and you can see the whole week in one viewport.</p>
+
+
+
+
+
+
+<h3>The code: Login:</h3>
+
+
+<h3>HTML</h3><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/html-code-login.png" class="image-in-article" style="width: 45vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>The login form has an input field, a type, name and a value fields. This form is used when you hook up a PHP database up with your site in order for users to log in, save their passwords etc. </i></p></div>									<h3>CSS</h3><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/css-code-login.png" class="image-in-article" style="width: 35vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>The login form is fairly simple, and the css code is as well.</i></p></div>	
+
+<p>The struggle I had at first was the input field, as the browser would like to input the information, but there was nothing hooked up to the website to catch it. </p>
+
+
+<h3>Javascript</h3>
+<div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/javascript-code-login.png" class="image-in-article" style="width: 50vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>So I used Javascrtipt to overwrite/prevent the default function of it, and made it go to the homepage instead.</i></p></div>	
+
+
+
+
+
+<h3>The code:Schedule:</h3>
+
+<h3>HTML</h3><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/html-code-schedule.png" class="image-in-article" style="width: 40vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>A simple grid function here with a javascript that applies class to the elements, making them either display:none or display:block. <br>The schedule is nested in a div called week-22 (semantically incorrect see top), week-23 and so fourth.</i></p></div>										<h3>CSS</h3><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/css-code-schedule.png" class="image-in-article" style="width: 30vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>Inside is the actual content that are then nested neatly in grids.
+This means I can copy paste the week’s and have them look the same.</i></p></div>	
+
+<h3>Javascript</h3><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/javascript-code-schedule.png" class="image-in-article" style="width: 30vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>Here is a screenshot of a sprite sheet used in our interactive poster.</i></p></div>	
+
+<p>The way to navigate the schedule is by using the two buttons that are on the schedule header, one goes backwards and the other forwards.
+The onclick value on the html tag of the images triggers the function.
+The javascript function then toggles the class elements of the week handles, between display:none and display:block.</p>
+
+<h3>The code: Newsfeed:</h3>
+
+<h3>HTML</h3><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/html-code-newsfeed.PNG" class="image-in-article" style="width: 30vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>Here I use a simple grid that aligns the newsfeed, inside are other grids that align the content relative to the contents size and text length. A simple onclick function reveals the box that comes from the left, it will change the class attribute from a display:none to a display:block with an animation coming in from the left.</i></p></div>										<h3>CSS</h3><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/css-code-newsfeed.PNG" class="image-in-article" style="width: 30vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>Here you can see part of the structure for the newsfeed, the newsbox (semantically incorrect see top) has the content. And the CSS structures the content.</i></p></div>
+
+
+<p>I realise now that with a class name on the newsbox handle I could have spared saved space and time and only use one CSS structure, instead of using one for each newsbox.</p>
+
+
+<h3>The code: Module:</h3>
+<p>I was using  CSS animation and JavaScript in order to make the user stay on one page, I’m am essentially designing a drop down menu. The end goal of this is to make the web prototype feel like an app and that you are actually still on the same page whilst looking for the information that you need.Doing this means that I hid some div’s with CSS code and with an onclick function another CSS class is assigned which makes it appear and transform.</p>
+
+
+
+
+<h3>HTML</h3><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/html-code-modules.png" class="image-in-article" style="width: 30vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>The modules are structured in this way (semantically incorrect see top).</i></p></div>								<h3>CSS</h3><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/css-code-module.PNG" class="image-in-article" style="width: 30vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>Elements that appear when the dropdown functions are  activated are hidden by their default class name.</i></p></div>
+
+<h3>Javascript</h3><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/javascript-code-modules.png" class="image-in-article" style="width: 30vw; height: auto;" alt=""/>
+<p class="text-under-image-center"><i>Using an onclick function they will have the .moduleoneopen css name and transform.</i></p></div>
+
+<p>Here we have the functions used for the onclick value.</p>
+
+<h3>What I couldn’t achieve in time:</h3>
+<p>Newsfeed: I was wanted was a messaging function to be here (the time allotted was not enough to complete all of my wishes).
+I also wanted to do a like function on each individual post as well as a commenting system and a repost button. This would be placed underneath the information on the right hand side.</p>
+
+<h3>Schedules:</h3>
+<p>The idea is if you press on the day it’s supposed to drop down with more information about the day, lectures, lunch exetera.</p>
+
+<h3>Navigation:</h3>
+<p>The navigation is very app like in use. The navigation menu is on the bottom, the idea is to make a media query where it would display:none and display rather on the top with a regular font instead of icons. My workflow was making everything responsive from the beginning, so it’s still responsive.</p>
+
+<h3>Modules:</h3>
+<p>I did not have time to code the feedback solution. Neither did I have time to fix a bug in one of the drop down animation.</p>
+
+<h3>Positioning Bugs: </h3>
+<p>There are a few positioning bugs on the page, the optimal viewing size is 375x812px. But otherwise the site is fully responsive.</p>
+
+<h3>Semantically incorrect tag - fix.</h3>
+<p>Since my website is made mostly with tags that are not semantically correct I have no choice but to hand it in like it is. Since I have no more time to fix it. Fixin it requires me to change both HTML and the CSS code and possibly the Javascript text as well.</p>
+
+
+<h3>TESTING:</h3>
+
+<p>Trunk test test 1: Indre a MMD student.</p>
+Where you able to log-in?:”Yes, very easy.”
+
+<h3>Did you find the layout confusing?:</h3><p>” No it was very clear and nice, liked it all, it was all clear.”</p>
+
+	<h3>Did you find the hand-in?:</h3><p>” Yes she found it. “</p>
+
+<h3>Do you understand the newsfeed?:</h3><p> “Yes, very clear and nice. But it’s not customizable or what? I liked it. Very nice with the pictures simple and effective.”</p>
+
+<p>Do you understand that there is a module path that lead to the current task and that there’s a shortcut to the current task?:” Not really. Mostly because the Icon was confusing. Was a bit lost in that sense, perhaps with using it for longer you will understand what's what.”</p>
+
+<h3>How was your UX?:</h3><p>” Satisfactory. Despite the small bugs it makes sense, the colors and the picture might be to much, it was all clear but perhaps the icons for the current task and the module. Liked the little details.”</p>
+
+<p>“Overall I would very much like to use it in real life - main page is distracting at first impression (in the navbar). Visually very satisfying.”</p>
+
+<h3>Trunk test test 2:</h3><p> Patrik a MMD student.
+Where you able to log-in?:”Yes.”</p>
+
+<h3>Did you find the layout confusing?:</h3><p>”No not really, found it very simple, and the design is effective in general.”</p>
+
+<h3>Did you find the hand-in?:</h3><p>”Yes, it was fairly easy.”</p>
+
+<h3>Do you understand the newsfeed?:</h3><p> “Yes, it was my the favorite part.”</p>
+
+Do you understand that there is a module path that lead to the current task and that there’s a shortcut to the current task?:<p>”I didn’t figure it out, it’s a bit hard to see the difference, but if you know about it it's easier. It’s written on the homepage, perhaps text underneath the icons in the navbar would help.”</p>
+
+<h3>How was your UX?:</h3><p> “Really like the design, it’s effective and simple to get around. Overall it’s very consistent, the main page is also very interactive. And suitable for young audiences.”</p>
+
+
+<h3>Analysis of test:</h3>
+<p>By analysing the test result gives me validation of the design principles used and tells me I was successful in solving the biggest problem Fronter has. The problem that students face is the messy interface of the current fronter. My prototype fixes those things and makes it more intuitive and quicker to access the information needed.</p>
+
+<p>The only problem might be the structure of the modules. They could perhaps be a little more clearer. All in all I, along with my classmates feel that this is at least much clearer than the current Fronter we use today.</p>
+
+
+<h3>What I take out of this project:</h3>
+<p>The most interesting thing I learnt during this project was about PHP coding and database servers.  Of course I did not have enough time to learn all of and implement PHP to my web prototype, but I really want it to have a login function. </p>
+ 
+<p>The other thing I learnt about myself whilst doing this project was that I have a pretty decent grasp of JavaScript and CSS animation and HTML markup, I have had no trouble making the prototype looking like it looks and that makes me very happy.</p>
+
+<p>I have to work smarter with CSS classes and ID tags, in order to save time and space.</p>
+
+<p>And I think I will always remember from now on what semantically correct code is.</p>
+
+<h3>Needed improvements on the web prototype:</h3>
+<p>I need to fix the HTML handles so they will be semantically incorrect.
+I need to fix positioning on a few elements as they tend to fall out/are displayed outside of their divs.</p>
+
+<p>Performance Test: Google Lighthouse</p>
+			<div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/lighthousetest-1.PNG" class="image-in-article" style="width: 60vw; height: auto;" alt=""/></div><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/lighthousetest-2.PNG" class="image-in-article" style="width: 60vw; height: auto;" alt=""/></div><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/lighthousetest-3.PNG" class="image-in-article" style="width: 60vw; height: auto;" alt=""/></div><div class="image-in-text">
+<img src="Material-for-portfolio/04.02.01/lighthousetest-4.PNG" class="image-in-article" style="width: 60vw; height: auto;" alt=""/></div>
+<div class="physical-bottom-padding"></div>
+	
+	</div></div><div class="physical-bottom-padding"></div></div></div>	
+
+<script src="java.js"></script>
+
+</body>
+</html>
