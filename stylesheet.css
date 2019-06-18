@@ -693,7 +693,7 @@ animation: backbuttondown 1s forwards;
     right: 0;
 	transform: translate(65%, 10%);
     margin: auto;
-	animation: welcometextappeard 2s forwards;
+	animation: welcometextappear 2s forwards;
 }
 
 @keyframes welcometextappear{
