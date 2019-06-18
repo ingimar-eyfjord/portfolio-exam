@@ -675,7 +675,7 @@ animation: backbuttondown 1s forwards;
 }
 
 #welcome-text{
-	opacity:1;
+	opacity:0;
 	z-index: 0;
 	text-align: center;
 	color:white;
@@ -693,14 +693,14 @@ animation: backbuttondown 1s forwards;
     right: 0;
 	transform: translate(65%, 10%);
     margin: auto;
-	animation: welcometextappear 2s forwards;
+	animation: welcometextappear 1s forwards;
 }
 
 @keyframes welcometextappear{
-	0% {transform: translate(-100px, 0px)}
+	0% {transform: translate(-15%, 10%)}
 	50%{opacity: 0}
 	100%{opacity: 1;
-		transform: translate(0px, 0px)
+		transform: translate(65%, 10%)
 	}
 }
 
